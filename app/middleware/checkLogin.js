@@ -1,8 +1,8 @@
 /*
  * @Description: 判断是否登录(session中的用户id与请求体传过来的用户id是否一致)
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-25 15:35:58
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 01:59:46
  */
 

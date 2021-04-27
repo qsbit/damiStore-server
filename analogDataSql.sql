@@ -1,8 +1,8 @@
 /*
  * @Description: 插入模拟的数据库信息语句
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-09 14:40:32
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-25 22:39:16
  */
 INSERT INTO category

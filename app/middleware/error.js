@@ -1,8 +1,8 @@
 /*
  * @Description: 全局错误处理中间件
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-04-07 23:11:48
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-04-07 23:13:33
  */
 module.exports = async (ctx, next) => {

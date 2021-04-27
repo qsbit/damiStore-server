@@ -1,8 +1,8 @@
 /*
  * @Description: 商品模块数据持久层
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 15:42:52
  */
 const db = require('./db.js');
@@ -46,13 +46,13 @@ module.exports = {
     return await db.query(sql, categoryID);
   },
   // 连接数据库,根据搜索条件,分页获取商品信息
-  GetProductBySearch: async (search, offset = 0, rows = 0) => { 
-    let sql = `select * from product where product_name like "%${ search }%" or product_title like "%${ search }%" or product_intro like "%${ search }%"`;
+  GetProductBySearch: async (search, offset = 0, rows = 0) => {
+    let sql = `select * from product where product_name like "%${search}%" or product_title like "%${search}%" or product_intro like "%${search}%"`;
 
     if (rows != 0) {
       sql += "order by product_sales desc limit " + offset + "," + rows;
     }
-    
+
     return await db.query(sql, []);
   },
   // 连接数据库,根据商品id,获取商品详细信息

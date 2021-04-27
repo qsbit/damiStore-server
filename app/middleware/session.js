@@ -1,19 +1,19 @@
 /*
  * @Description: session配置
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-04-07 22:28:43
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-04-07 22:29:28
  */
 let store = {
   storage: {},
-  set (key, session) {
+  set(key, session) {
     this.storage[key] = session;
   },
-  get (key) {
+  get(key) {
     return this.storage[key];
   },
-  destroy (key) {
+  destroy(key) {
     delete this.storage[key];
   }
 }

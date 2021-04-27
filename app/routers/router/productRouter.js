@@ -1,8 +1,8 @@
 /*
  * @Description: 商品模块路由
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-04-07 22:52:56
  */
 const Router = require('koa-router');
@@ -19,5 +19,5 @@ productRouter
   .post('/product/getProductBySearch', productController.GetProductBySearch)
   .post('/product/getDetails', productController.GetDetails)
   .post('/product/getDetailsPicture', productController.GetDetailsPicture)
-  
+
 module.exports = productRouter;

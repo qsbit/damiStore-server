@@ -1,8 +1,8 @@
 /*
  * @Description: 购物车模块数据持久层
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-19 16:17:19
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 15:58:55
  */
 const db = require('./db.js');

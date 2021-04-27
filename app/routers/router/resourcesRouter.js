@@ -1,8 +1,8 @@
 /*
  * @Description: 资源模块路由
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-25 22:36:30
  */
 const Router = require('koa-router');

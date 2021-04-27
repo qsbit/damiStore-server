@@ -1,8 +1,8 @@
 /*
  * @Description: 校验用户信息是否符合规则
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-25 15:43:27
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 02:04:35
  */
 module.exports = {

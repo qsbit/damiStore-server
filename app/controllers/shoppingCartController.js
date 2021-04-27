@@ -1,8 +1,8 @@
 /*
  * @Description: 购物车模块控制器
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-19 16:15:14
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 15:58:46
  */
 const shoppingCartDao = require('../models/dao/shoppingCartDao');

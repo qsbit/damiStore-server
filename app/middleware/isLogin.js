@@ -1,8 +1,8 @@
 /*
  * @Description: 全局登录拦截器
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-04-07 22:42:36
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-04-07 22:44:52
  */
 module.exports = async (ctx, next) => {

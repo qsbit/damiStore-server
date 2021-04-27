@@ -1,8 +1,8 @@
 /*
  * @Description: 我的收藏模块数据持久层
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-03-04 22:33:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-03-10 17:50:37
  */
 const db = require('./db.js');

@@ -1,8 +1,8 @@
 /*
  * @Description: 数据库连接
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 13:20:11
  */
 var mysql = require('mysql');
@@ -23,7 +23,7 @@ db.query = function (sql, params) {
       }
 
       connection.query(sql, params, function (error, results, fields) {
-        console.log(`${ sql }=>${ params }`);
+        console.log(`${sql}=>${params}`);
         // 释放连接
         connection.release();
         if (error) {

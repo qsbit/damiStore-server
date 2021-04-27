@@ -1,8 +1,8 @@
 /*
  * @Description: 全局配置信息
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-28 23:21:30
  */
 const path = require('path');

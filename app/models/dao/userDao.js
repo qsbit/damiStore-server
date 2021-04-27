@@ -1,8 +1,8 @@
 /*
  * @Description: 用户模块数据持久层
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-02-27 02:12:30
  */
 const db = require('./db.js');

@@ -1,8 +1,8 @@
 /*
  * @Description: 建库建表语句
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:58
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-03-27 15:36:01
  */
 
@@ -20,8 +20,8 @@ create table users(
 -- values(null, 'admin', '123456', '13580018623');
 create table carousel(
   carousel_id int primary key auto_increment,
-  imgPath char (50) not null,
-  describes char (50) not null
+  imgPath char (100) not null,
+  description text not null
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 -- insert into carousel
 -- values(null, 'public/imgs/cms_1.jpg', '123456');

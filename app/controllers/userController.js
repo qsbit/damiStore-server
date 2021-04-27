@@ -1,8 +1,8 @@
 /*
  * @Description: 用户模块控制器
- * @Author: hai-27
+ * @Author: Jungle
  * @Date: 2020-02-07 16:51:56
- * @LastEditors: hai-27
+ * @LastEditors: Jungle
  * @LastEditTime: 2020-03-27 16:03:09
  */
 const rp = require('request-promise');
@@ -72,7 +72,7 @@ module.exports = {
     const secret = '9c40f33cf627f2e3a42f38b25e0687cc';
     let { code } = ctx.request.body;
 
-    const api = `https://api.weixin.qq.com/sns/jscode2session?appid=${ appid }&secret=${ secret }&js_code=${ code }&grant_type=authorization_code`;
+    const api = `https://api.weixin.qq.com/sns/jscode2session?appid=${appid}&secret=${secret}&js_code=${code}&grant_type=authorization_code`;
     // 通过 wx.login 接口获得临时登录凭证 code 后
     // 传到开发者服务器调用此接口完成登录流程。
     const res = await rp.get({
@@ -104,7 +104,7 @@ module.exports = {
         msg: '未知错误'
       }
     }
-    async function login () {
+    async function login() {
       // 连接数据库根据用户名和密码查询用户信息
       let tempUser = await userDao.Login(openid, openid);
       if (tempUser.length === 0) {
